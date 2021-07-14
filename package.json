@@ -1,0 +1,30 @@
+{
+  "name": "@micro-site/vite-plugin",
+  "version": "0.0.0",
+  "description": "Micro Site Vite Plugin",
+  "scripts": {
+    "build": "qoi build --dts --emptyOutDir"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btoaelbore/bto-ui-shell.git"
+  },
+  "keywords": [],
+  "author": "Arjay Elbore <aelbore@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btoaelbore/bto-ui-shell/issues"
+  },
+  "homepage": "https://github.com/btoaelbore/bto-ui-shell#readme",
+  "devDependencies": {
+    "@micro-site": "file:../shared/dist",
+    "@qoi/build": "^0.0.8",
+    "@qoi/cli": "^0.0.9",
+    "@types/express": "^4.17.13",
+    "@types/http-proxy": "^1.17.7",
+    "@types/node": "^16.3.1",
+    "express": "^4.17.1",
+    "typescript": "^4.3.5",
+    "vite": "^2.4.2"
+  }
+}
